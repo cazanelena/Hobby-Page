@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elena Cazan</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Elena.</h1>
+      <h2>a programmer</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+      <!-- <img src="images/mountain.png" alt="mountain-img" /> -->
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="profile-img"
+          src="images/counseling.png"
+          alt="profile-img"
+        />
+
+        <h2>Hello</h2>
+        <p class="intro">
+          I work full time as a Technical Recuiter and part-time
+          learning about web development. Now and then I love to mess around
+          with some:
+            <ul>HTML</ul>
+            <ul>CSS</ul>
+            <ul>Javascript</ul>
+        </p>
+        
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Hobbies</h2>
+        <div class="skill-row">
+          <img class="skills-img" src="images/skill.png" alt="skills-pic" />
+
+          <h3>Coding - Web development</h3>
+          <p>
+            I started learing about web development from online tutorials. I am
+            curious to see what my limits are!
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="books-img" src="images/books.png" alt="books-img" />
+
+          <h3>Reading & Tennis</h3>
+          <p>
+            In my free time I like to read lots of books and play tennis. As
+            Joseph Addison said 'Reading is to the mind what exercise is to the
+            body.'
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you like tennis or reading as much as I do.</h3>
+        <p class="contact-message">Let's talk more about it!</p>
+
+        <p class="contact-message">
+          Before it gets too late: <span id="datetime"></span>
+        </p>
+
+        <script>
+          var dt = new Date();
+          document.getElementById("datetime").innerHTML =
+            dt.toLocaleDateString();
+        </script>
+
+        <a class="btn" href="mailto:cazan.elena23@yahoo.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/elena-cazan-bba317131/"
+        >LinkedIn</a
+      >
+      <a
+        class="footer-link"
+        href="https://cazanelena.github.io/personal-website/"
+        >Website</a
+      >
+      <p class="copyright">© Elena Cazan</p>
+
+      <a
+        href="https://www.flaticon.com/free-icons/computer"
+        title="computer icons"
+        >Computer icons created by Freepik - Flaticon</a
+      >
+    </div>
+  </body>
+  <footer></footer>
+</html>
